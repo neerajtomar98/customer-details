@@ -6,3 +6,11 @@ Libraries Used:
   react-dom
   react-redux
   bootstrap
+
+Scrrenshots
+1.Customers List:
+![Alt text](/customer-list.png?raw=true "Customer list")
+
+
+2.Customer addresses:
+![Alt text](/customers-address.png?raw=true "Customer address")
