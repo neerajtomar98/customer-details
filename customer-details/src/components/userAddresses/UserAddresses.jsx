@@ -16,9 +16,14 @@ const UserAddresses = props => {
   }
   return (
     <div className="col-12 ">
-      <hr />
-      <label mt-5>
-        <strong>Customer Addresses:</strong>
+      <div className="mt-5 mb-1 mt-2">
+        <a href="/">Back</a>
+      </div>
+      <label className="mt-5">
+        <strong>
+          Addresses for {props.customerName ? props.customerName : "Customer"}
+          &nbsp; :
+        </strong>
       </label>
       <ul className="list-group">
         {props.addresses.addresses.map(createAddressList)}

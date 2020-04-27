@@ -1,6 +1,6 @@
 {
   "name": "customer-details-page",
-  "version": "0.0.358",
+  "version": "0.0.467",
   "description": null,
   "keywords": [],
   "main": "index.js",
@@ -12,7 +12,8 @@
     "redux": "3.6.0",
     "redux-logger": "3.0.1",
     "redux-promise-middleware": "4.2.0",
-    "redux-thunk": "2.2.0"
+    "redux-thunk": "2.2.0",
+    "sass": "1.26.5"
   },
   "devDependencies": {
     "react-scripts": "1.0.0"
